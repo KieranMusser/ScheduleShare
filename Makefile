@@ -1,5 +1,7 @@
-zip:
-	zip -j schedule-share.zip -r schedule-share/
+all: zip firefox
 
-firefox: zip
-	mv schedule-share.zip schedule-share.xpi
+zip:
+	zip schedule-share.zip -r schedule-share/
+
+firefox: 
+	(cd schedule-share && zip ../schedule-share.xpi -r ./)
