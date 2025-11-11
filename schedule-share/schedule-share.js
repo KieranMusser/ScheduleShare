@@ -1,4 +1,4 @@
-
+let browser = (window.browser) ? window.browser : window.chrome;
 function extractCourseNumbers() {
 	let courseTable = document.getElementsByClassName("schedule-courses");
 	

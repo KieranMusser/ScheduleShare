@@ -1,4 +1,5 @@
 let url = 'http://localhost:8080';
+let browser = (window.browser) ? window.browser : window.chrome;
 //let uid = null; 
 
 async function registerNew(name, token) {
