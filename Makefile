@@ -1,2 +1,2 @@
 package:
-	zip schedule-share.xpi -r schedule-share/
+	zip -j schedule-share.xpi -r schedule-share/
